@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Protfolio</title>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/png" href="images/f1 (1).png">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <img src="images/f2.png" alt="Image Error">
+      <a href="" class="logo"><span>Port</span>folio</span></a>
+        <nav class="navbar">
+          <a href="#home"><span>Home</span></a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a> 
+        </nav>
+    </header>
+    <!--home page-->
+    <section class="home" id="home">
+        <div class="home-content" >
+          <h3> Hi, <span>I'm</span></h3>
+          <h1>Azmath <span>Farhana</span></h1>
+          <h2>A Full Stack Web Developer.</h2>
+            <div class="social-media">
+              <a href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin'></i></a>
+              <a href="#"><i class='bx bxl-gmail'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+          <img src="images/homepage.JPG" alt="Image Error">
+        </div>
+      </section>
+    <!--About page-->
+    <section class="about" id="about">
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col1">
+              <img src="images/gold.jpeg" alt="about image">
+            </div>
+            <div class="about-col2">
+              <h1 class="title">About <span>Me</span></h1>
+              <p>Am a Full stack web developer who has worked with a variety of programming languages.I am a quick   learner and I am always willing to learn new things. I am a hard worker and I am always ready to work on a project. I am a team player and I am always willing to help others. I persued the course called Full Stack Web Developer from PRR Institute in Dilsukhnagar.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')"><span>Skills</span></p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+                <div class="tab-contents active-tab" id="skills" >
+                  <ul>
+                   <li>Python</li>
+                   <li>HTML</li>
+                   <li>CSS</li>
+                   <li>Javascript</li>
+                   <li>Bootstrap</li>
+                   <li>Jquery</li>
+                   <li>django</li>
+                   <li>Sql</li>
+                   <li>RestAPI</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2018-2020</span><br>MCA with 80.96% <br> from Visvesvaraya Technological Universities kalaburagi.</li><br>
+                  <li><span>2015-2018</span><br>BCA with 85.68%<br> from S.S Tegnoor Degree kalaburagi. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact page -->
+    <section class="contact" id="contact">
+      <div id="contact">
+        <div class="container-left">
+          <div class="row">
+            <h1 class="title">Contact <span>Me!</span></h1><br>
+            <p><i class='bx bxl-gmail'></i>Azmathfarana@gmail.com</p>
+            <p><i class='bx bxl-whatsapp-square'></i>+918187861649</p>
+            <p><i class='bx bxs-phone-call'></i>+919963058559</p>
+          </div>
+        </div>
+        <div class="form-right">
+          <form action="">
+            <input type="text" name="Name"  placeholder="Your Name" required>
+            <input type="email" name="email" id="" placeholder="Your Email" required>
+            <input type="phonenumber" name="number" placeholder="Your mobile number" required>
+            <textarea name="Message" id="" cols="15" rows="6" placeholder="Your Message" required></textarea><br>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-text">
+          <p>Designed by @Azmathfarana. 2023</p>
+        </div>
+        <div class="footer-icontop">
+          <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
